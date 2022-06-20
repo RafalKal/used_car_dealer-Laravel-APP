@@ -1,0 +1,136 @@
+body{
+    background-color: #edede9;
+}
+
+.content{
+    padding: 2rem;
+}
+
+.page-header {
+    font-family: 'Krona One', sans-serif;
+    background-color: #264653;
+    padding: 2rem;
+    display: flex;
+    flex-direction: row;
+}
+
+.page-header h2 {
+    color: #e76f51;
+    text-transform: uppercase;
+}
+
+.page-header h2:hover {
+    cursor: pointer;
+    color: #f4a261;
+}
+
+.page-header-links {
+    margin-left: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.page-header-links a {
+    text-decoration: none;
+    text-transform: capitalize;
+    color: #f4a261;
+}
+
+.page-header-links a:hover {
+    color: #e9c46a;
+}
+
+form {
+    padding: 1rem;
+    box-shadow: 2.8px 2.8px 2.2px rgba(0, 0, 0, 0.02),
+    6.7px 6.7px 5.3px rgba(0, 0, 0, 0.028),
+    12.5px 12.5px 10px rgba(0, 0, 0, 0.035),
+    22.3px 22.3px 17.9px rgba(0, 0, 0, 0.042),
+    41.8px 41.8px 33.4px rgba(0, 0, 0, 0.05),
+    100px 100px 80px rgba(0, 0, 0, 0.07);
+    border-radius: 2px;
+    background-color: white;
+    font-size: 1.2rem;
+}
+
+label, button{
+    font-family: 'Syne', sans-serif;
+}
+
+input{
+    font-family: 'Belleza', sans-serif;
+}
+
+button{
+    font-family: 'Syne', sans-serif;
+}
+
+span{
+    font-family: 'Syne', sans-serif;
+}
+
+.link{
+    text-decoration: none;
+    text-transform: capitalize;
+    color: #f4a261;
+    font-family: 'Syne', sans-serif;
+}
+
+
+.panel-section a{
+    text-decoration: none;
+    font-family: 'Syne', sans-serif;
+    text-transform: uppercase;
+    color: #264653;
+    font-size: 1.5rem;
+}
+
+.panel-section a:hover{
+    color: #f4a261;
+}
+
+.panel-section hr{
+    color: #e76f51;
+    height: 2px;
+    width: 90%;
+}
+
+.panel-section header{
+    font-family: 'Krona One', sans-serif;
+    text-transform: capitalize;
+    color: #2a9d8f;
+    font-size: 1.2rem;
+}
+
+table{
+    font-family: 'Syne', sans-serif;
+}
+
+.username{
+    color: #e76f51;
+    font-family: 'Krona One', sans-serif;
+    font-size: 1.5rem;
+    text-transform: capitalize;
+}
+
+.car-card{
+    background-color: white;
+    border-radius: 5px;
+    padding: 1rem;
+}
+
+.car-manufacturer{
+    font-family: 'Krona One', sans-serif;
+    font-size: 1.5rem;
+    color: #e76f51;
+}
+
+.car-model{
+    font-family: 'Krona One', sans-serif;
+    color: #2a9d8f;
+}
+
+.car-price{
+    color: #f4a261;
+    font-size: 1.2rem;
+}
