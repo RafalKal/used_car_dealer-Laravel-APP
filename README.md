@@ -1,8 +1,42 @@
+1.	Opis tematyki: 
+Aplikacja Komisu samochodowego z podziałem na  użytkowników (klientów) oraz adminów (admin/super admin). Aplikacja wykonuje podstawowe akcje CRUD. Zawiera prostą logikę biznesową manipulując statusami samochodów, historią zamówień użytkownika itp. 
 
-![image](https://user-images.githubusercontent.com/83827739/228790873-93a78118-77a7-49e6-8fca-31a0e3eb5e21.png)
+2.	Opis wykorzystanych technologii:
+a)	Język programowania PHP 8.1 (https://www.php.net/releases/8.1/en.php)
+b)	Framework Laravel 9.17.0 (https://laravel.com/docs/9.x/releases)
+c)	Baza danych PostgreSQL 13 (https://www.postgresql.org/download/)
+d)	Biblioteka Spatie do zarządzania rolami użytkowników (https://spatie.be/docs/laravel-permission/v5/introduction)
+e)	Biblioteka Bootstrap 5 (https://getbootstrap.com/docs/5.0/getting-started/introduction/)
+
+3.	Opis wykorzystanych narzędzi: 
+a)	Środowisko programistyczne PHPStorm 
+(https://www.jetbrains.com/phpstorm/documentation/?source=google&medium=cpc&campaign=14335686150&term=phpstorm&gclid=Cj0KCQjwwJuVBhCAARIsAOPwGASHIvS-g9nCdJltnWleFVyT4pDWXDpwd5dhMVWevogYbhJ68CK0PL0aAmdHEALw_wcB)
+Darmowa licencja dla studentów
+
+b)	pgAdmin 4 (https://www.pgadmin.org/download/)
+Narzędzie, pozwalające pracować z bazą PostgreSQL korzystając z GUI
+
+c)	Composer CLI (https://getcomposer.org/)
+
+d)	Node.js (https://nodejs.org/en/)
 
 
-![image](https://user-images.githubusercontent.com/83827739/228789875-4b8f3c38-1532-4d02-af4b-e120ac049f3e.png)
+4.	Instrukcja uruchomienia aplikacji
+a)	Zainstalować PHP w wersji min 8.1
+b)	Zainstalować serwis bazy danych PostgreSQL 13
+c)	Zainstalować „composer”
+d)	Zainstalować „Node.js”
+e)	Uzupełnić dane do połączenia z bazą danych w pliku .env
+Polecenia do uruchomienia w głównym folderze projektu:
+a)	composer update
+b)	composer install
+c)	npm install
+d)	php artisan db:create (polecenie utworzy bazę danych. UWAGA! Jeśli baza o nazwie podanej w pliku konfiguracyjnym już istnieje zostanie ona usunięta)
+e)	php artisan migrate
+f)	php artisan db:seed
+g)	php artisan serve
+
+Aplikacja będzie dostępna pod adresem: http://localhost:8000
 
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400"></a></p>
 
